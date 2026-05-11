@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD 演示 | GitHub Actions + Pages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 CI/CD 流水线演示</h1>
+        <div class="card">
+            <p>这个页面是通过 <strong>GitHub Actions</strong> 自动构建并部署到 <strong>GitHub Pages</strong> 的。</p>
+            <p>最后部署时间：<span id="deploy-time">--</span></p>
+            <p>构建编号：<span id="build-number">--</span></p>
+            <button id="refresh-btn">🔄 刷新页面</button>
+        </div>
+        <footer>当 <code>git push</code> 时会自动触发自动化流水线 ✨</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
